@@ -1,0 +1,34 @@
+.forecast-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  flex: 1;
+  width: 100%;
+  padding-top: 75px;
+}
+
+.forecast-grid {
+  width: 100%;
+  flex: 1;
+  padding: 0 15px;
+}
+
+.forecast-grid__city {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 3.5em;
+}
+
+.forecast-grid__select {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.forecast-grid__days {
+  display: flex;
+  flex-wrap: wrap;
+}

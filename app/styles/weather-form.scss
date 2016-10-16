@@ -1,0 +1,24 @@
+.weather-form {
+  text-align: center;
+}
+
+.weather-form__input {
+  margin-bottom: 10px;
+}
+
+.weather-form__btn {
+  display: inline-block;
+}
+
+// Navbar styling
+.navbar .weather-form {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.navbar .weather-form__input {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+}

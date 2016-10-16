@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  flex: 1;
+  width: 100%;
+  background-color: #F5AB35;
+}
+
+.home__title {
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 3em;
+}

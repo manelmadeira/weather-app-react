@@ -1,0 +1,23 @@
+.forecast-day {
+  width: 25%;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.forecast-day__icon {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 5em;
+  line-height: 1.5em;
+  color: #83A5B3;
+}
+
+.forecast-day__weekday {
+  font-weight: 100;
+  font-size: 1.5em;
+}
